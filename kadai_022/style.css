@@ -34,7 +34,7 @@ h2::before {
     content: "●";
     color: rgb(239, 111, 139);
 }
-.text-bold {
+.contents p:nth-of-type(2)::first-letter{
     font-weight: bold;
     color: rgb(97, 206, 249);
 }
@@ -72,6 +72,6 @@ a:hover {
 
 @media screen and (max-width: 768px) {
     #parent {
-        display: block;
+        flex-direction: column;
     }
 }
